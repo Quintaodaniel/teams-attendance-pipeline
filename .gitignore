@@ -1,0 +1,27 @@
+# --- Dados Sensíveis (LGPD) ---
+# Ignora toda a pasta de dados para evitar vazamento de nomes e informações
+data/
+
+# --- Ambientes Virtuais ---
+# Ignora pastas de bibliotecas instaladas (venv, .venv, env)
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+
+# --- Python (Arquivos temporários) ---
+# Ignora cache de execução do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDEs ---
+# Ignora configurações específicas do editor (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
