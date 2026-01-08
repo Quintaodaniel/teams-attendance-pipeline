@@ -5,7 +5,7 @@ data/processed/*
 data/final/*
 
 # Não ignore arquivos .gitkeep (isso mantém as pastas vivas no Git)
-!**/ .gitkeep
+!**/.gitkeep
 
 # --- Ambientes Virtuais ---
 # Ignora pastas de bibliotecas instaladas (venv, .venv, env)
